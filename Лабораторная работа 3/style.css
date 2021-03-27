@@ -1,0 +1,88 @@
+body {
+    background-image: url(images/stol.jpg);
+    background-size: cover;    
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+
+.frame {
+    width: 360px;
+    height: 360px;
+    border: 16px solid sienna;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    width: 320px;
+    height: 319px;
+    border: 21px solid silver;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters-line1 {
+    display: flex;
+    width: 335px;
+    justify-content: space-around;
+}
+
+.letters-line2 {
+    display: flex;
+    width: 335px;
+    transform: scale(-1,-1);
+    justify-content: space-around;
+}
+
+.let {
+    color: white;
+    font-weight: bold;
+}
+
+.cells-line {
+    display: flex;
+}
+
+.numbers-line1 {
+    height: 320px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers-line2 {
+    height: 320px; 
+    display: flex;
+    transform: scale(-1,-1);
+    flex-direction: column;
+}
+
+.num {
+    height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.black {
+    background-color: sienna;
+    width: 40px;
+    height: 40px;
+}
+
+.white {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.shape {
+    width: 100%;
+}
